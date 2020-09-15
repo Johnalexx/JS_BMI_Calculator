@@ -1,0 +1,39 @@
+body{
+    background-color: grey;
+}
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_bold.woff);
+}
+h2{
+   font-family: myFirstFont;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+}
+input{
+    border-radius: 4px;
+    margin: 1px;
+}
+.container{
+    font-family: monospace;
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 4px;
+    padding: 9px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+button{
+    border-radius: 40%;
+    border-color: black;
+    border-width: 1.5px;
+    background-color: grey;
+}
+button:hover{
+    background-color: thistle;
+}
